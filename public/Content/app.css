@@ -2,57 +2,24 @@ h1{
     margin-left: 500px;
     color: brown;
 }
-#two{
-    margin-top: 50px;
-    font-size: xx-large;
-    color:chocolate;
-    background-color: antiquewhite;
-    
-}
+
 img{
     margin-left: 500px;
 }
-#three{
-    margin-top: 400px;
-    color: blue;
-}
+
 #im1{
    margin-left: 580px;
    width: 300px;
    height:240px;
 }
-#c1{
-    margin-left: 2px;
-}
-#three
-{
-    margin-top: 50px;
-    font-size: xx-large;
-    color:chocolate;
-    background-color: antiquewhite;   
-}
-#c2{
-    margin-left: 2px;
-}
-#four{
-    margin-top: 50px;
-    font-size: xx-large;
-    color:chocolate;
-    background-color: antiquewhite; 
-}
+
+
 #d1{
     margin-bottom: 50px;
     
 }
-#c3{
-    margin-left: 2px;
-}
-#five{
-    margin-top: 50px;
-    font-size: xx-large;
-    color:chocolate;
-    background-color: antiquewhite; 
-}
+
+
 #con{
     mask-border-width: 5px;
     border: 3px;
@@ -88,4 +55,39 @@ img{
     margin-left: 2px;
     width: 300px;
     height:250px;
+}
+#pro{
+    margin-left: 2px;
+    width: 300px;
+    height:250px;
+}
+#c1{
+    margin-left: 2px;
+    width: 300px;
+    height:250px;
+}
+#c2{
+    margin-left: 2px;
+    width: 300px;
+    height:250px;
+}
+#c3{
+    margin-left: 2px;
+    width: 300px;
+    height:250px;
+}
+#par1{
+    font-size: 50px;
+    font-size: x-large;
+    color: violet;
+    margin-left: 5px;
+    margin-top: 30px;
+    border: 4px;
+    border-style: solid;
+}
+#myname
+{
+    margin-left: 660px;
+    margin-top: 10px;
+    color:teal;
 }
