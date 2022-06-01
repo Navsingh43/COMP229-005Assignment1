@@ -8,7 +8,7 @@ img{
 }
 
 #im1{
-   margin-left: 580px;
+   margin-left: 650px;
    width: 300px;
    height:240px;
 }
@@ -79,15 +79,65 @@ img{
 #par1{
     font-size: 50px;
     font-size: x-large;
-    color: violet;
+    color: rgb(49, 73, 102);
     margin-left: 5px;
     margin-top: 30px;
     border: 4px;
-    border-style: solid;
+    border-style: groove;
+
 }
 #myname
 {
-    margin-left: 660px;
+    margin-left: 720px;
     margin-top: 10px;
     color:teal;
+}
+#main{
+    background-color: rgb(210, 193, 170);
+    max-height: max-content;
+}
+#headi{
+    margin-left: 560px;
+}
+#two{
+    color: rgb(49, 73, 102);
+    font-size: larger;
+    border-style: groove;
+    border-width: 2px;
+    margin-top: 10px;
+    
+}
+#four
+{
+    color: rgb(49, 73, 102);
+    font-size: larger;
+    border-style: groove;
+    border-width: 2px;
+    margin-top: 10px;
+}
+#three
+{
+    color: rgb(49, 73, 102);
+    font-size: larger;
+    border-style: groove;
+    border-width: 2px;
+    margin-top: 10px;
+}
+#mai{
+    height: 700px;
+    background-color: rgb(210, 193, 170);
+}
+#uol{
+    background-color: aquamarine;
+}
+#cont{
+    height:700px;
+    background-color:  rgb(210, 193, 170);
+}
+#foo{
+    position: relative;
+}
+#home{
+    height: 700px;
+    background-color:  rgb(210, 193, 170);
 }
