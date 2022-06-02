@@ -12,14 +12,6 @@ img{
    width: 300px;
    height:240px;
 }
-
-
-#d1{
-    margin-bottom: 50px;
-    
-}
-
-
 #con{
     mask-border-width: 5px;
     border: 3px;
@@ -46,15 +38,6 @@ img{
 #sub{
     color: darkviolet;
     font-size: 20px;
-}
-#mess{
-    color: darkviolet;
-    font-size: 20px;
-}
-#ser1{
-    margin-left: 2px;
-    width: 300px;
-    height:250px;
 }
 #pro{
     margin-left: 2px;
@@ -105,6 +88,8 @@ img{
     border-style: groove;
     border-width: 2px;
     margin-top: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
     
 }
 #four
@@ -114,6 +99,8 @@ img{
     border-style: groove;
     border-width: 2px;
     margin-top: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
 }
 #three
 {
@@ -122,6 +109,8 @@ img{
     border-style: groove;
     border-width: 2px;
     margin-top: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
 }
 #mai{
     height: 700px;
@@ -140,4 +129,39 @@ img{
 #home{
     height: 700px;
     background-color:  rgb(210, 193, 170);
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+label {
+    color: #333;
+}
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 80%;
+    margin-left: 3px;
+    }
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px;
+
+}
+
+.card{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#imagee{
+    width: 30px;
+    height:25px;
+    margin-left: 2px;
+    margin-bottom: 3px;
 }
