@@ -1,17 +1,23 @@
+<!-- Loaded header.ejs template -->
 <%- include partials/header.ejs %>
 
+<!-- Loaded main_nav.ejs template -->
 <%- include partials/main_nav.ejs %>
 
+<!-- Main content comes here -->
     <main id="mai">
       <div >
-        <h1 id="headi">Welcome to the <%= title %> page</h1>
+        <h1 id="heading1">Welcome to the <%= title %> page</h1>
         </div>
         
         <img src="Assets\images\WhatsApp Image 2022-06-01 at 12.06.52 AM.jpeg" id="im1">
         <h3 id="myname"><%= na %></h3>
-        <p id="two"><%= pp %></p>
+        <p id="two"><%= pp %><br><a href="Assets\My Resume (1) (2).pdf">Click Here</a></p>
     </main>
+    <!--Loading footer class for the page-->
     <footer class="page-footer font-small pt-4">
+<!-- Loaded bottom_nav.ejs template -->
 <%- include partials/bottom_nav.ejs %>
 
+<!-- Loaded footer.ejs template -->
 <%- include partials/footer.ejs %>

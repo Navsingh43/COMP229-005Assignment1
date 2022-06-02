@@ -1,12 +1,14 @@
+<!-- Loaded header.ejs template -->
 <%- include partials/header.ejs %>
 
+<!-- Loaded main_nav.ejs template -->
 <%- include partials/main_nav.ejs %>
 
 <main id="cont">
     <div >
-      <h1 >Welcome to the <%= title %> page</h1>
+      <h1 id="heading2">Welcome to the <%= title %> page</h1>
       </div>
-        <div class="container">
+        <div class="container" id="contain">
         <div class="row ">
           <div class="col-lg-7 mx-auto">
             <div class="card mt-2 mx-auto p-4 bg-light">
@@ -38,7 +40,7 @@
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label for="form_lastname">Contact *</label>
-                                <input id="form_lastname" type="number" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                                <input id="form_lastname" type="number" name="surname" class="form-control" placeholder="Please enter your Contact *" required="required" data-error="Lastname is required.">
                                                                 </div>
                         </div>
                         
@@ -54,8 +56,7 @@
                             </div>
                             <br>
                         <div class="col-md-12">
-                            <input type="submit" class="btn btn-success btn-send  pt-2 btn-block
-                                " value="Send Message" >
+                           <button id="buton">Submit</button> 
                     </div>
                     </div>
             </div>
@@ -65,15 +66,14 @@
     
     
         </div>
-            <!-- /.8 -->
-    
         </div>
-        <!-- /.row-->
     
     </div>
     </div>
 </main>
 
-      <%- include partials/bottom_nav.ejs %>
+<!-- Loaded bottom_nav.ejs template -->
+<%- include partials/bottom_nav.ejs %>
 
-      <%- include partials/footer.ejs %>
+<!-- Loaded footer.ejs template -->
+<%- include partials/footer.ejs %>
