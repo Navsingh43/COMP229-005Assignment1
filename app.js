@@ -3,26 +3,30 @@
    Student ID: 301157391
    Date:3-June-2022
 */
+
+/*The installed third party packages */
 let  createError = require('http-errors');
 let  express = require('express');
 let  path = require('path');
 let  cookieParser = require('cookie-parser');
 let  logger = require('morgan');
 
-let  indexRouter = require('./routes/index');
-let  usersRouter = require('./routes/users');
+let  indexRouter = require('./routes/index');   /*Routing index.js */
+let  usersRouter = require('./routes/users');   /*Routing index.js */
 
+/*Instantiates express application */
 let  app = express();
 
 // view engine setup
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'views')); /*Joining views into our search path */
+app.set('view engine', 'ejs');   /*Specify ejs as view engine */
 
-app.use(logger('dev'));
-app.use(express.json());
+/*Additional activations*/
+app.use(logger('dev'));    /*To track the dev systems that are logging */
+app.use(express.json());     /*Method to recognise json file*/
 app.use(express.urlencoded({ extended: false }));
-app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(cookieParser());  /*Loading a cookie parser middleware */
+app.use(express.static(path.join(__dirname, 'public')));  /*Loading middleware for static files*/
 app.use(express.static(path.join(__dirname,'node_modules')));
 
 app.use('/', indexRouter);

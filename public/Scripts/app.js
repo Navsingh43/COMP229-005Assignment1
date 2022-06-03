@@ -1,8 +1,14 @@
-// Immediately invoked function exprssion
+/*File Name: app.js
+   Name: Navjot Singh
+   Student ID: 301157391
+   Date:3-June-2022
+ */
+
+/*Immediately invoked functional expression */
 (function(){
-    function Start()
-    {
-        console.log("App started..");
-    }
-    window.addEventListener("load",Start);
-})
+function start(){
+    console.log("App started");
+     
+    window.addEventListener('load',start);
+}
+})();

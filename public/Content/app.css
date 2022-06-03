@@ -72,7 +72,8 @@ img{
     margin-left: 5px;
     margin-top: 30px;
     border: 4px;
-    border-style: groove;
+    border-style:groove;
+    border-width: 2px;
 
 }
 #myname
@@ -123,7 +124,7 @@ img{
     margin-right: 3px;
 }
 #mai{
-    height: 700px;
+    height: 775px;
     background-color:  rgb(236, 227, 214);
 }
 #uol{
@@ -137,7 +138,7 @@ img{
     position: relative;
 }
 #home{
-    height: 700px;
+    height: 775px;
     background-color: rgb(236, 227, 214);
 }
 body {
@@ -183,7 +184,7 @@ label {
     border-top: 0ch;
     border-style:double;
     border-width: 5px;
-    margin-right: 700px;
+    margin-right: 650px;
 }
 #heading2{
     border-left: #ff5050;
@@ -215,4 +216,8 @@ label {
 }
 #buton{
     margin-left: 250px;
+}
+#mainservice{
+    height:1060px;
+    background-color: rgb(236, 227, 214);
 }
